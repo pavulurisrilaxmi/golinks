@@ -12,12 +12,7 @@ GET  /jira/ABC-123       -> 302 https://jira.internal/browse/ABC-123
 $ go new oncall https://pager.internal/rota
 $ go ls
 ```
-
-Built for the prescreen exercise, Option 1. The git history is deliberately
-granular — the first five commits are the hour-one cut (service, UI, tests,
-README); everything after is the second pass, so you can judge either on its
-own.
-
+Built for the prescreen exercise, Option 1 — Go Links. The implementation prioritizes the core user workflow, maintainability, validation, accessibility, observability, and clear engineering tradeoffs within the exercise’s time constraint.
 ---
 
 ## Running it
