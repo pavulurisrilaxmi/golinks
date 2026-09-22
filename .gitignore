@@ -1,0 +1,7 @@
+node_modules/
+dist/
+coverage/
+*.log
+
+# Local shortcut store (see README: data is intentionally file-backed)
+data/
